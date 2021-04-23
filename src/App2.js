@@ -5,109 +5,115 @@ export default function App2() {
     return (
     <body>
         <div className="big--container">
-            <div className="cards">
+            <div className="container--cards">
+                <div className="cards">
+                    <article className="card">
+                    <header>
+                        <h2>A short heading</h2>
+                    </header>
+
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
+                            years ago. The idea of reaching the North Pole by means of balloons appears to have been entertained many
+                            years ago.</p>
+                    </div>
+
+                </article>
+
                 <article className="card">
-                <header>
-                    <h2>A short heading</h2>
-                </header>
+                    <header>
+                        <h2>A short heading</h2>
+                    </header>
 
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                        years ago. The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                        years ago.</p>
-                </div>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p>Short content.</p>
+                    </div>
+                    <footer>I have a footer!</footer>
+                </article>
 
-            </article>
+                <article className="card">
+                    <header>
+                        <h2>A longer heading in this card</h2>
+                    </header>
 
-            <article className="card">
-                <header>
-                    <h2>A short heading</h2>
-                </header>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
+                            suggestion for reaching the North Pole by an aerostat.</p>
+                    </div>
+                    <footer>I have a footer!</footer>
+                </article>
+                <article className="card">
+                    <header>
+                        <h2>A short heading</h2>
+                    </header>
 
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p>Short content.</p>
-                </div>
-                <footer>I have a footer!</footer>
-            </article>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
+                            years ago. </p>
+                    </div>
 
-            <article className="card">
-                <header>
-                    <h2>A longer heading in this card</h2>
-                </header>
+                </article>
 
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
-                        suggestion for reaching the North Pole by an aerostat.</p>
-                </div>
-                <footer>I have a footer!</footer>
-            </article>
-            <article className="card">
-                <header>
-                    <h2>A short heading</h2>
-                </header>
+                <article className="card">
+                    <header>
+                        <h2>A longer heading in this card</h2>
+                    </header>
 
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                        years ago. </p>
-                </div>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
+                            suggestion for reaching the North Pole by an aerostat.</p>
+                    </div>
+                    <footer>I have a footer!</footer>
+                </article>
+                <article className="card">
+                    <header>
+                        <h2>A short heading</h2>
+                    </header>
 
-            </article>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
+                            years ago. </p>
+                    </div>
 
-            <article className="card">
-                <header>
-                    <h2>A longer heading in this card</h2>
-                </header>
+                </article>
+                <article className="card">
+                    <header>
+                        <h2>A longer heading in this card</h2>
+                    </header>
 
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
-                        suggestion for reaching the North Pole by an aerostat.</p>
-                </div>
-                <footer>I have a footer!</footer>
-            </article>
-            <article className="card">
-                <header>
-                    <h2>A short heading</h2>
-                </header>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
+                            suggestion for reaching the North Pole by an aerostat.</p>
+                    </div>
+                    <footer>I have a footer!</footer>
+                </article>
+                <article className="card">
+                    <header>
+                        <h2>A short heading</h2>
+                    </header>
 
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                        years ago. </p>
-                </div>
+                    <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
+                    <div className="content">
+                        <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
+                            years ago. </p>
+                    </div>
 
-            </article>
-            <article className="card">
-                <header>
-                    <h2>A longer heading in this card</h2>
-                </header>
-
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
-                        suggestion for reaching the North Pole by an aerostat.</p>
-                </div>
-                <footer>I have a footer!</footer>
-            </article>
-            <article className="card">
-                <header>
-                    <h2>A short heading</h2>
-                </header>
-
-                <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
-                <div className="content">
-                    <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
-                        years ago. </p>
-                </div>
-
-            </article>
+                </article>
+            </div>
+            </div>
+            <div className="helper--container">
+                <footer>If no answer after 10 min? leave it for 30</footer>
+                <footer>If no answer after 40 min? comeback later</footer>
+                <footer>Still no answer? check the helper button</footer>
 
             </div>
-            <div className="helper"></div>
         </div>
 
     </body>

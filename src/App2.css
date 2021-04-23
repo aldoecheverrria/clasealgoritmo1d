@@ -11,11 +11,17 @@ body {
   flex-direction: row;
 }
 
-.helper {
+.helper--container {
   display: flex;
   flex-direction: column;
   flex: 0.25;
-  color: red;
+}
+
+.helper--container footer {
+  background-color: aqua;
+  padding: 8rem 3rem;
+  text-align: center;
+  border: 1px solid green;
 }
 
 .container--cards {
