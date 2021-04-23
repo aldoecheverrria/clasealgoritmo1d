@@ -8,35 +8,47 @@
   display: grid;
   place-items: center;
   height: 100vh;
+
   background-color: #dadbd3;
 }
 
 .app__body {
   display: flex;
-  background-color: #ededed;
+  background-color: #2b509e;
+  color: aliceblue;
   height: 100vh;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  flex: 0.95;
+  flex: 0.9;
   background-color: #b1364a;
-
   border-right: 1px solid lightgrey;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  flex: 0.05;
+  flex: 0.1;
   background-color: #1a867f;
   border-right: 1px solid #b1364a;
   justify-content: space-evenly;
+  font-size: 1.2em;
 }
 
 .child {
   height: 32vh;
+  align-items: center;
+  align-content: center;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 .header-child1 {
