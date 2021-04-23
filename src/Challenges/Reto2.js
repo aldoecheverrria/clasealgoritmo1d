@@ -20,6 +20,7 @@ export default function Reto2() {
             <div className="content">
                 <p>{crearElementos(100)}</p>
             </div>
+            <textarea placeholder="Type your JSX code here"/>
             <button>Compare</button>
             <footer>Type your JSX answer. Click the "Compare" button to see the JSX answer</footer>
         </article>

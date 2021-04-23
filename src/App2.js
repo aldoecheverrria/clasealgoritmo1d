@@ -2,6 +2,7 @@ import React from 'react'
 import './App2.css'
 import Reto1 from './Challenges/Reto1'
 import Reto2 from './Challenges/Reto2'
+import Reto3 from './Challenges/Reto3'
 
 export default function App2() {
     return (
@@ -12,7 +13,7 @@ export default function App2() {
                    
                 <Reto1/>
                 <Reto2/>
-                
+                <Reto3/>
             </div>
             </div>
             <div className="helper--container">
