@@ -11,7 +11,7 @@ export default function Reto9() {
     return (
         <article className="card">
             <header>
-                <h2>9.- Wee need a function that converts from Celsius to Fahrenheit</h2>
+                <h2>9.- We need a function that converts from Celsius to Fahrenheit</h2>
             </header>
 
             <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>

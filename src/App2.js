@@ -30,7 +30,7 @@ export default function App2() {
             </div>
             <div className="helper--container">
                 <footer className="helper1">Instructions: read the challenge carefuly, and type your JSX code in the textArea...</footer>
-                <footer className="helper2">When you are finished typing your answer, click the compare button, to see the recommended code; remember that maybe multiple solutions to the same problem.</footer>
+                <footer className="helper2">When you are finished typing your answer, click the compare button, to see the recommended code; remember that may be multiple solutions to the same problem.</footer>
                 <footer className="helper3">... if 30 min has passed? take a break  ... if you still have no answer, click compare button as a last resource.</footer>
              
 

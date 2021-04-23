@@ -14,7 +14,7 @@ export default function Reto7() {
     return (
         <article className="card">
             <header>
-                <h2>7.- Summ all odd numbers greater than 10 and less than 30 </h2>
+                <h2>7.- Sum all odd numbers greater than 10 and less than 30 </h2>
             </header>
 
             <img src="https://mdn.github.io/css-examples/css-cookbook/balloons.jpg" alt="Hot air balloons"/>
