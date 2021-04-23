@@ -14,12 +14,12 @@ body {
 .helper--container {
   display: flex;
   flex-direction: column;
-  flex: 0.25;
+  flex: 0.15;
 }
 
 .helper--container footer {
   background-color: aqua;
-  padding: 8rem 3rem;
+  padding: 3.67rem 3rem;
   text-align: center;
   border: 1px solid green;
 }
@@ -27,7 +27,7 @@ body {
 .container--cards {
   display: flex;
   flex-direction: column;
-  flex: 0.75;
+  flex: 0.85;
 }
 
 img {

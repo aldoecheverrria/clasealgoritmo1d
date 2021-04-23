@@ -112,6 +112,7 @@ export default function App2() {
                 <footer>If no answer after 10 min? leave it for 30</footer>
                 <footer>If no answer after 40 min? comeback later</footer>
                 <footer>Still no answer? check the helper button</footer>
+                <button>Helper</button>
 
             </div>
         </div>
