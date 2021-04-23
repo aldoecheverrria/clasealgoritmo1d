@@ -109,9 +109,9 @@ export default function App2() {
             </div>
             </div>
             <div className="helper--container">
-                <footer>If no answer after 10 min? leave it for 30</footer>
-                <footer>If no answer after 40 min? comeback later</footer>
-                <footer>Still no answer? check the helper button</footer>
+                <footer className="helper1">If no answer after 10 min? leave it for 30</footer>
+                <footer className="helper2">If no answer after 40 min? comeback later</footer>
+                <footer className="helper3">Still no answer? check the helper button</footer>
                 <button>Helper</button>
 
             </div>
