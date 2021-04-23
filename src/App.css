@@ -61,3 +61,8 @@
 .header-child3 {
   background-color: #63e1bc;
 }
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+}
