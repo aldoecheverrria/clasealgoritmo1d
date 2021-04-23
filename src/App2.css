@@ -71,6 +71,13 @@ img {
   padding: 0.5rem;
 }
 
+p {
+  font-size: small;
+}
+
+textarea {
+  padding: 3rem;
+}
 /* 
 .index__module--header {
   display: flex;
