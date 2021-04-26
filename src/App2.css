@@ -11,22 +11,6 @@ body {
   flex-direction: row;
 }
 
-.helper--container {
-  display: flex;
-  flex-direction: column;
-  flex: 0.15;
-}
-
-.helper--container footer {
-  background-color: #63e1bc;
-  padding: 3.14rem 3rem;
-  font-size: large;
-  text-align: center;
-  color: black;
-  border: 4px solid #1a867f;
-  border-radius: 5px;
-}
-
 .container--cards {
   display: flex;
   flex-direction: column;
@@ -80,6 +64,39 @@ p {
 textarea {
   padding: 3rem;
 }
+
+.helper--container {
+  display: flex;
+  flex-direction: column;
+  flex: 0.15;
+  position: fixed;
+  right: 0;
+}
+
+.helper--container footer {
+  background-color: #63e1bc;
+  padding: 3.14rem 3rem;
+  font-size: large;
+  text-align: center;
+  color: black;
+  border: 4px solid #1a867f;
+  border-radius: 5px;
+}
+
+.helper--container .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  align-self: auto;
+  width: 9vw;
+  height: 9vw;
+  border-radius: 100%;
+  font-size: medium;
+  margin-bottom: 3%;
+}
+
 .helper--container .helper1 {
   background-color: #237fcc;
 }
@@ -90,6 +107,55 @@ textarea {
 
 .helper--container .helper3 {
   background-color: #63e1bc;
+}
+
+@media screen and (max-width: 1750) {
+  .helper--container .item {
+    font-size: 1em;
+    width: 8vw;
+    height: 8vw;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .helper--container .item {
+    font-size: x-small;
+    width: 7vw;
+    height: 7vw;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .helper--container .item {
+    font-size: x-small;
+    width: 6vw;
+    height: 6vw;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .helper--container .item {
+    font-size: xx-small;
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .helper--container .item {
+    font-size: 20%;
+    width: 4vw;
+    height: 4vw;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .helper--container .item {
+    font-size: 15%;
+    width: 3vw;
+    height: 3vw;
+  }
 }
 
 /* 
