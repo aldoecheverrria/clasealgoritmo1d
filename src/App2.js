@@ -12,31 +12,31 @@ import Reto9 from './Challenges/Reto9'
 
 export default function App2() {
     return (
-    <body>
-        <div className="big--container">
-            <div className="container--cards">
-                <div className="cards">
-                   
-                <Reto1/>
-                <Reto2/>
-                <Reto3/>
-                <Reto4/>
-                <Reto5/>
-                <Reto6/>
-                <Reto7/>
-                <Reto8/>
-                <Reto9/>
-            </div>
-            </div>
-            <div className="helper--container">
-                <footer className="item helper1">Instructions: read carefuly, and type JSX code in the textArea...</footer>
-                <footer className="item helper2">finished typing your answer ? click the compare button, to see  recommended code; remember: multiple solution's to same problem</footer>
-                <footer className="item helper3">... if 30 min has passed ? take a break  : still  no answer then click Compare as a last resource.</footer>
-             
+        <body>
+            <div className="big--container">
+                <div className="container--cards">
+                    <div className="cards">
 
-            </div>
-        </div>
+                        <Reto1 />
+                        <Reto2 />
+                        <Reto3 />
+                        <Reto4 />
+                        <Reto5 />
+                        <Reto6 />
+                        <Reto7 />
+                        <Reto8 />
+                        <Reto9 />
+                    </div>
+                </div>
+                <div className="helper--container">
+                    <footer className="item helper1">Instructions: read carefuly, and type JSX code in the textArea...</footer>
+                    <footer className="item helper2">Finished typing your answer? click the compare button, to see  recommended code; remember: multiple solution's to same problem</footer>
+                    <footer className="item helper3">... if 30 min has passed ? take a break  : still  no answer then click Compare as a last of the resource.</footer>
 
-    </body>
+
+                </div>
+            </div>
+
+        </body>
     )
 }
